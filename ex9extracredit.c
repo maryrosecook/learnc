@@ -21,7 +21,7 @@ long charToNum(char name[], int nameLength, int index)
 
 int main(int argc, char *argv[])
 {
-  int nameLength = 3;
+	int nameLength = 3;
 	char name[3] = {'m', 'r', 'c'};
 
 	printf("Initial string: %s\n", name);
