@@ -24,10 +24,10 @@ int main(int argc, char *argv[])
 	int nameLength = 3;
 	char name[3] = {'m', 'r', 'c'};
 
-	printf("Initial string: %s\n", name);
-	printf("Chars at ints:  %d%d%d\n", name[0], name[1], name[2]);
-	printf("As a number:    %ld\n", charToNum(name, nameLength, 0) +
-										 				 			charToNum(name, nameLength, 1) +
-																	charToNum(name, nameLength, 2));
+	printf("String:  %s\n", name);
+	printf("As ints: %d %d %d\n", name[0], name[1], name[2]);
+	printf("As num:  %ld\n", charToNum(name, nameLength, 0) +
+														charToNum(name, nameLength, 1) +
+														charToNum(name, nameLength, 2));
 	return 0;
 }
